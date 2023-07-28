@@ -18,9 +18,9 @@ def get_country_cases(country1, country2)
     end 
 end
 
-puts "Provide a country: "
+puts "Provide a country "
 country1 = STDIN.gets.chomp
-puts "Provide another country: "
+puts "Provide another country "
 country2 = STDIN.gets.chomp
 
 get_country_cases(country1, country2)
